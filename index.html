@@ -115,45 +115,51 @@
                 onClick={() => setSelectedItem(item)}
                 className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-pointer overflow-hidden border border-gray-100 flex flex-col h-full"
               >
-                <div className="p-5 sm:p-6 flex-grow flex flex-row gap-4 sm:gap-6">
-                  {/* 왼쪽 텍스트 영역 */}
-                  <div className="flex flex-col flex-grow min-w-0">
-                    <div className="flex items-start justify-between mb-3">
-                      <span className="bg-blue-50 text-blue-600 text-xs font-bold px-2.5 py-1 rounded-md max-w-fit truncate mr-2">
-                        {item.category}
-                      </span>
-                      <span className="text-xs text-gray-500 font-medium shrink-0">
-                        마감: {item.deadline}
-                      </span>
+                <div className="p-5 sm:p-6 flex-grow flex flex-col">
+                  {/* 1. 상단 영역 (Header) */}
+                  <div className="w-full flex items-center justify-between mb-4">
+                    <span className="bg-blue-50 text-blue-600 text-xs font-bold px-2.5 py-1 rounded-md shrink-0">
+                      {item.category}
+                    </span>
+                    <span className="text-xs text-gray-500 font-medium shrink-0 whitespace-nowrap text-right">
+                      마감: {item.deadline}
+                    </span>
+                  </div>
+
+                  {/* 2. 중단 영역 (Main Content) */}
+                  <div className="flex flex-row gap-4 sm:gap-6 flex-grow mb-4">
+                    {/* 왼쪽 텍스트 영역 */}
+                    <div className="flex-1 flex flex-col min-w-0">
+                      <h2 className="text-xl font-bold text-gray-900 mb-1 truncate">{item.name}</h2>
+                      <h3 className="text-sm font-semibold text-gray-500 mb-3 line-clamp-2">{item.title}</h3>
+                      <p className="text-gray-600 text-sm line-clamp-3 whitespace-normal">
+                        {item.description}
+                      </p>
                     </div>
-                    <h2 className="text-xl font-bold text-gray-900 mb-1 truncate">{item.name}</h2>
-                    <h3 className="text-sm font-semibold text-gray-500 mb-3 truncate">{item.title}</h3>
-                    <p className="text-gray-600 text-sm line-clamp-3 mb-4 flex-grow">
-                      {item.description}
-                    </p>
                     
-                    {item.tags && item.tags.length > 0 && (
-                      <div className="flex flex-wrap gap-1.5 mt-auto pt-4 border-t border-gray-100">
-                        {item.tags.map(tag => (
-                          <span key={tag} className="text-[11px] text-gray-500 bg-gray-100 px-2 py-1 rounded">
-                            #{tag}
-                          </span>
-                        ))}
-                      </div>
-                    )}
+                    {/* 오른쪽 대표 이미지 영역 */}
+                    <div className="shrink-0 flex items-start">
+                      <img 
+                        src={`./image/${item.keyword}1.jpg`} 
+                        alt={`${item.name} 대표 이미지`}
+                        className="w-24 h-24 sm:w-28 sm:h-28 object-cover rounded-xl shadow-sm border border-gray-200 block"
+                        onError={(e) => {
+                          e.target.style.display = 'none';
+                        }}
+                      />
+                    </div>
                   </div>
-                  
-                  {/* 오른쪽 대표 이미지 영역 */}
-                  <div className="shrink-0 flex items-center">
-                    <img 
-                      src={`./image/${item.keyword}1.jpg`} 
-                      alt={`${item.name} 대표 이미지`}
-                      className="w-24 h-24 sm:w-28 sm:h-28 object-cover rounded-xl shadow-sm border border-gray-200"
-                      onError={(e) => {
-                        e.target.style.display = 'none';
-                      }}
-                    />
-                  </div>
+
+                  {/* 3. 하단 영역 (Footer - Tags) */}
+                  {item.tags && item.tags.length > 0 && (
+                    <div className="flex flex-wrap gap-1.5 mt-auto pt-4 border-t border-gray-100 w-full">
+                      {item.tags.map(tag => (
+                        <span key={tag} className="text-[11px] text-gray-500 bg-gray-100 px-2 py-1 rounded break-words">
+                          #{tag}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
