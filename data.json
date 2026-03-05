@@ -1,6 +1,5 @@
 [
     {
-        "id": 0,
         "name": "미디어센터",
         "keyword": "mediacenter",
         "title": "🙌🏻성공회대학교 공식 언론기관 '미디어센터'에서 2026학년도 1학기 정규 수습기자를 모집합니다!🙌🏻",
@@ -17,7 +16,6 @@
         ]
     },
     {
-        "id": 1,
         "name": "청춘탐독 3기",
         "keyword": "cheongchuntamdog",
         "title": "❤️대학생연합독서동아리 <청춘탐독 3기> 회원모집❤️",
@@ -34,7 +32,6 @@
         ]
     },
     {
-        "id": 2,
         "name": "책물결",
         "keyword": "chaegmulgyeol",
         "title": "📚 2026 - 1학기 개강맞이 대학연합책동아리《책물결》신입회원 모집",
@@ -51,7 +48,6 @@
         ]
     },
     {
-        "id": 3,
         "name": "콕 (COCK)",
         "keyword": "cock",
         "title": "🏸성공회대 배드민턴 동아리 콕 신입 부원 모집 안내🏸",
@@ -68,7 +64,6 @@
         ]
     },
     {
-        "id": 4,
         "name": "퍼즐 (PUZZLE)",
         "keyword": "puzzle",
         "title": "🧩 퍼즐 11기 모집 시작!",
@@ -85,7 +80,6 @@
         ]
     },
     {
-        "id": 5,
         "name": "낯가림 구조대",
         "keyword": "nachgalimgujodae",
         "title": "🚨 [ 낯가림 구조대 | 내향인 대학생활 생존 연습 ] 🚑",
@@ -102,7 +96,6 @@
         ]
     },
     {
-        "id": 6,
         "name": "푸름",
         "keyword": "puleum",
         "title": "[대학연합] 환경동아리 푸름 11기 신입부원 모집🌿",
@@ -119,7 +112,6 @@
         ]
     },
     {
-        "id": 7,
         "name": "구장밖구장",
         "keyword": "gujangbakkgujang",
         "title": "⚾️야구 직관 연합 동아리 [구장밖구장] 신입 부원 모집",
@@ -136,7 +128,6 @@
         ]
     },
     {
-        "id": 8,
         "name": "S.OWL",
         "keyword": "sowl",
         "title": "[마감 D-5] 🦉성공회대 IT 정동아리 S.OWL 모집",
@@ -153,7 +144,6 @@
         ]
     },
     {
-        "id": 9,
         "name": "멋쟁이사자처럼 (LikeLion) SKHU",
         "keyword": "likelion",
         "title": "🦁 LikeLion SKHU 14기 서류 마감 D-3 🦁",
@@ -170,7 +160,6 @@
         ]
     },
     {
-        "id": 10,
         "name": "파-란",
         "keyword": "palan",
         "title": "❗️마감임박❗️노래 같이 부를 신입단원을 찾습니다🔍",
@@ -187,7 +176,6 @@
         ]
     },
     {
-        "id": 11,
         "name": "우마이 갓",
         "keyword": "umaigod",
         "title": "🍱 \"우마이 갓\" 일식 맛집 동아리 (3기 모집) 🍱",
@@ -204,7 +192,6 @@
         ]
     },
     {
-        "id": 12,
         "name": "보스턴 (Bosturn)",
         "keyword": "bosturn",
         "title": "🎲 연합 보드게임 동아리 보스턴 9기 모집 🎲",
@@ -221,7 +208,6 @@
         ]
     },
     {
-        "id": 13,
         "name": "동화",
         "keyword": "donghwa",
         "title": "🌸새학기 그냥 보내긴 아깝지 않아?🌸 버킷리스트 연합 동아리 🌺동화🌺에서 18기 신입 부원을 모집합니다.",
@@ -238,7 +224,6 @@
         ]
     },
     {
-        "id": 14,
         "name": "Clutch",
         "keyword": "clutch",
         "title": "🎲전략보드게임 친목동아리Clutch 신규 멤버 모집 🎲",
@@ -255,7 +240,6 @@
         ]
     },
     {
-        "id": 15,
         "name": "해피트레이드 (HAPPY TRADE)",
         "keyword": "happytrade",
         "title": "[모집] 공정무역 동아리 해피트레이드🍌",
@@ -272,7 +256,6 @@
         ]
     },
     {
-        "id": 16,
         "name": "대학생기후행동",
         "keyword": "daehagsaeng-gihuhaengdong",
         "title": "🌍기후환경 동아리 “대학생기후행동” 6기 신입회원 모집🌍",
@@ -289,7 +272,6 @@
         ]
     },
     {
-        "id": 17,
         "name": "어디든",
         "keyword": "eodideun",
         "title": "🚏 \"어디든\" 동아리~ 5기 추가 모집",
@@ -306,7 +288,6 @@
         ]
     },
     {
-        "id": 18,
         "name": "화랑 (HWARANG)",
         "keyword": "hwarang",
         "title": "💃성공회대 댄스동아리 화랑 신입부원 모집🕺",
@@ -323,7 +304,6 @@
         ]
     },
     {
-        "id": 19,
         "name": "Film Clubb",
         "keyword": "filmclubb",
         "title": "✨ Film Clubb 신입 부원 모집 ✨",
@@ -340,7 +320,6 @@
         ]
     },
     {
-        "id": 20,
         "name": "Z team",
         "keyword": "zteam",
         "title": "💜사회복지 청년단체 Z team 6기 모집💜",
@@ -357,7 +336,6 @@
         ]
     },
     {
-        "id": 21,
         "name": "플로우 (FLOW)",
         "keyword": "flow",
         "title": "🏀성공회대학교 농구동아리 플로우(FLOW)에서 신입부원을 모집합니다🏀",
@@ -374,7 +352,6 @@
         ]
     },
     {
-        "id": 22,
         "name": "생생역사통",
         "keyword": "saengsaengyeogsatong",
         "title": "📢 [2026년 신규 모집] 역사친목동아리 <생생역사통>",
@@ -391,7 +368,6 @@
         ]
     },
     {
-        "id": 23,
         "name": "한따까리",
         "keyword": "hanttakkali",
         "title": "🚴‍♀️ [한따까리] 6기 한강 따릉이 라이딩 연합동아리 신입 부원 모집! 💨",
@@ -408,7 +384,6 @@
         ]
     },
     {
-        "id": 24,
         "name": "동행",
         "keyword": "donghang",
         "title": "💪운동 연합동아리 ‘동행’이 7기 회원을 모집합니다!💪",
@@ -425,7 +400,6 @@
         ]
     },
     {
-        "id": 25,
         "name": "겜친소",
         "keyword": "gemchinso",
         "title": "🕹 게임 친목 동아리 <겜친소>에서 신입부원을 모집합니다!",
@@ -442,7 +416,6 @@
         ]
     },
     {
-        "id": 26,
         "name": "히토비토",
         "keyword": "hitobito",
         "title": "<일본어 연극 '히토비토' 모집>",
@@ -459,7 +432,6 @@
         ]
     },
     {
-        "id": 27,
         "name": "쏘다텐",
         "keyword": "ssodaten",
         "title": "🎯 양궁&사격 동아리 <쏘다텐> 1기 신입 부원 모집 🔫",
@@ -476,7 +448,6 @@
         ]
     },
     {
-        "id": 28,
         "name": "마술가게",
         "keyword": "masulgage",
         "title": "❤️마술가게 29기 신입 점원모집❤️",
@@ -493,7 +464,6 @@
         ]
     },
     {
-        "id": 29,
         "name": "전시과몰입",
         "keyword": "jeonsigwamolib",
         "title": "《전시과몰입 3기 모집》",
@@ -510,7 +480,6 @@
         ]
     },
     {
-        "id": 30,
         "name": "크레센도 (CRESCENDO)",
         "keyword": "crescendo",
         "title": "🩵3월에 정기공연 할 사람🙌 🎤보컬동아리 크레센도 2기 모집중🩵",
@@ -527,7 +496,6 @@
         ]
     },
     {
-        "id": 31,
         "name": "M-Quence (미퀀스)",
         "keyword": "m-quence",
         "title": "영상제작 소모임 M-Quence 3기 신입부원 모집",
@@ -544,7 +512,6 @@
         ]
     },
     {
-        "id": 32,
         "name": "CAFE.zip",
         "keyword": "cafezip",
         "title": "🤎카풰투어동아리 [CAFE.zip] 1기 신입부원 모집 합니다🤎",
@@ -561,7 +528,6 @@
         ]
     },
     {
-        "id": 33,
         "name": "Q.E.D.",
         "keyword": "qed",
         "title": "[🔐Q.E.D. 2기 부원 모집🔐]",
@@ -578,7 +544,6 @@
         ]
     },
     {
-        "id": 34,
         "name": "킥보드",
         "keyword": "kickboard",
         "title": "🎲 보드게임 동아리 킥보드 3기 부원 모집 🎲",
@@ -595,7 +560,6 @@
         ]
     },
     {
-        "id": 35,
         "name": "필름 메이트 (Film Mate)",
         "keyword": "filmmate",
         "title": "📸🏙 서울 명소 탐방, 서로의 인생샷을 찍어주는 모임 🌟필름 메이트(Film Mate) 모집 중!",
@@ -612,7 +576,6 @@
         ]
     },
     {
-        "id": 36,
         "name": "탑 클럽",
         "keyword": "topclub",
         "title": "🥇서울 연합 클라이밍 동아리 \"탑 클럽\"2기 모집🥇",
@@ -629,7 +592,6 @@
         ]
     },
     {
-        "id": 37,
         "name": "띵크부크",
         "keyword": "thinkbook",
         "title": "📚함께 읽고, 깊게 생각하는 ‘띵크부크’",
@@ -646,7 +608,6 @@
         ]
     },
     {
-        "id": 38,
         "name": "배민클럽",
         "keyword": "baeminclub",
         "title": "배민클럽 – “먹기 위해 운동한다.” 의 진심 모임 🏸🍗",
@@ -663,7 +624,6 @@
         ]
     },
     {
-        "id": 39,
         "name": "SFC (Student For Christ)",
         "keyword": "sfc",
         "title": "💙기독교 동아리 ‘SFC’를 소개합니다💙",
@@ -680,7 +640,6 @@
         ]
     },
     {
-        "id": 40,
         "name": "동아리연합회",
         "keyword": "clubfederation",
         "title": "✨✨ 동아리연합회 신입국원 모집 ✨✨",
@@ -697,7 +656,6 @@
         ]
     },
     {
-        "id": 41,
         "name": "놀이터",
         "keyword": "playground",
         "title": "🍪 2026 놀이터 다과회(설명회) 신청공지🍪",
@@ -714,7 +672,6 @@
         ]
     },
     {
-        "id": 42,
         "name": "죠이선교회 (J.O.Y)",
         "keyword": "joy",
         "title": "🎁 J.O.Y의 개강맞이 100% 당첨 뽑기✨",
@@ -731,7 +688,6 @@
         ]
     },
     {
-        "id": 43,
         "name": "루트 (Route)",
         "keyword": "root",
         "title": "<🧗클라이밍 동아리 루트🧗 9기 모집공고>",
@@ -748,7 +704,6 @@
         ]
     },
     {
-        "id": 44,
         "name": "C.O.L",
         "keyword": "col",
         "title": "🔥2026년 성공회대 록밴드 C.O.L 30기 신입부원 모집🔥",
@@ -765,7 +720,6 @@
         ]
     },
     {
-        "id": 45,
         "name": "봉은사 대학생법회 깨나무",
         "keyword": "newlawstudent",
         "title": "봉은사 대학생법회에서 신입법우분들 모집합니다.",
@@ -782,7 +736,6 @@
         ]
     },
     {
-        "id": 46,
         "name": "놀이터",
         "keyword": "noliteo",
         "title": "💚🎠2026년 놀이터 16기 신입부원 신청공지🎠💚",
@@ -799,7 +752,6 @@
         ]
     },
     {
-        "id": 47,
         "name": "나혼작",
         "keyword": "nahonjag",
         "title": "🎨나혼작(웹툰/웹소설 제작 및 기획 소모임) 신규회원 모집👤",
@@ -816,7 +768,6 @@
         ]
     },
     {
-        "id": 48,
         "name": "CCC",
         "keyword": "ccc",
         "title": "🐠저 먹었어요!! c붕 먹었어요‼️🐠",
@@ -833,7 +784,6 @@
         ]
     },
     {
-        "id": 49,
         "name": "애드컬리지",
         "keyword": "adcollege",
         "title": "💡 [D-3]💛대학생연합광고동아리 애드컬리지에서 40기 신입을 모집합니다💛",
@@ -850,7 +800,6 @@
         ]
     },
     {
-        "id": 50,
         "name": "스쿠빌레 (SKHUbile)",
         "keyword": "skhubile",
         "title": "오케스트라 동아리 스쿠빌레 SKHUbile 9기 신입 단원 모집",
@@ -867,7 +816,6 @@
         ]
     },
     {
-        "id": 51,
         "name": "Bis",
         "keyword": "bis",
         "title": "🔥성공회대학교 대중음악 밴드 동아리 Bis 31기 신입부원 모집🔥",
@@ -884,7 +832,6 @@
         ]
     },
     {
-        "id": 52,
         "name": "CCC",
         "keyword": "cccc",
         "title": "💟중앙동아리 CCC 신입부원 모집💟",
@@ -901,7 +848,6 @@
         ]
     },
     {
-        "id": 53,
         "name": "보드카",
         "keyword": "boardcar",
         "title": "[보드게임 연합동아리 “보드카” 신입 부원 모집]",
@@ -918,7 +864,6 @@
         ]
     },
     {
-        "id": 54,
         "name": "엘피스 (ELPIS)",
         "keyword": "elpis",
         "title": "🔥ELPIS 40기를 모집합니다🔥",
