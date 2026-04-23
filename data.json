@@ -1,5 +1,22 @@
 [
     {
+        "name": "전자음악사랑단",
+        "keyword": "ElectronicMusicLover",
+        "title": "성공회대 전자음악 소모임 [전자음악사랑단]",
+        "category": "음악",
+        "deadline": "",
+        "description": "EDM, IDM 등 모든 장르의 전자음악을 함께 공유하고 페스티벌 및 공연 관람을 즐기는 음악 소모임",
+        "tags": [
+            "전자음악",
+            "EDM",
+            "음악공유",
+            "공연관람",
+            "디제잉",
+            "페스티벌",
+            "친목"
+        ]
+    },
+    {
         "name": "역시 난 비주류야 킥킥",
         "keyword": "NonMainstreamKikKik",
         "title": "역시 난 비주류야 킥킥 소모임",
