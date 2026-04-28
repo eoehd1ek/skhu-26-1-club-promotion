@@ -1,0 +1,29 @@
+name: CI Json Data Validation
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+
+jobs:
+  ajv-validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Node.js 환경 구축 (v22) 및 의존성 캐시 최적화
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      # 프로젝트 의존성 설치
+      - name: Install dependencies
+        run: npm ci
+
+      # ajv-cli와 ajv-keywords를 전역/로컬로 호출해 JSON 규칙 검사 (어긋나면 fail 처리 됨)
+      - name: Validate data.json against schema
+        run: npx ajv-cli validate -c ajv-keywords -s public/data.schema.json -d public/data.json

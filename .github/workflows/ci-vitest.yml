@@ -1,0 +1,31 @@
+name: CI vitest
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+
+jobs:
+  vitest:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 저장소 코드 체크아웃
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Node.js 22로 세팅하며 npm 캐싱을 이용해 빌드 최적화 (시간 단축)
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      # 프로젝트 의존성 설치
+      - name: Install dependencies
+        run: npm ci
+
+      # Vitest 실행 후 테스트 결과를 출력
+      # --run 옵션을 통해 watch 대기 모드로 빠지지 않고 단일 검사만 수행합니다.
+      - name: Run unit tests
+        run: npm run test -- --run
